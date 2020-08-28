@@ -1,0 +1,57 @@
+body {
+  /* background-color: rgb(140, 173, 187); */
+}
+.container {
+  width: 600px;
+  height: 500px;
+
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  margin: 25px;
+
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.inputIn {
+  box-sizing: border-box;
+  width: 600px;
+  height: 100px;
+
+  line-height: 80px;
+  vertical-align: middle;
+  font-size: 50px;
+  text-align: right;
+  padding: 10px;
+
+  overflow: auto;
+  overflow-y: hidden;
+
+  background-color: rgb(241, 238, 238);
+  color: #607d8b;
+  font-family: Noto Sans SC;
+}
+button {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #98a9b6;
+
+  font-family: Noto Sans SC;
+  font-size: 36px;
+  cursor: pointer;
+  outline: none;
+}
+button:hover {
+  background-color: orange;
+}
+.equal {
+  width: 600px;
+  background-color: #6c7f896b;
+}
+.number {
+  background-color: #4594bc59;
+}
+.sign {
+  background-color: #6c7f896b;
+}
