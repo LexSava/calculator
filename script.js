@@ -94,7 +94,7 @@ equal.onclick = function () {
   }
 
   let res = sum.shift();
-  res = res.toFixed(2);
+  res = Math.round(res * 100) / 100;
   sum.unshift(res);
   console.log(sum);
 
